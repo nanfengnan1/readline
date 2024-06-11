@@ -377,7 +377,7 @@ com_stat (arg)
 
   printf ("Statistics for `%s':\n", arg);
 
-  printf ("%s has %d link%s, and is %lu byte%s in length.\n",
+  printf ("%s has %ld link%s, and is %lu byte%s in length.\n",
 	  arg,
           finfo.st_nlink,
           (finfo.st_nlink == 1) ? "" : "s",
